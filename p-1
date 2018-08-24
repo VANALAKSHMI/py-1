@@ -1,0 +1,10 @@
+print("to check whether the input is +ve or -ve or zero")
+x=int(input("N="))
+if(x>0):
+  print("positive")
+elif(x<0):
+  print("nagative")
+elif(x==0):
+  print("zero")
+else:
+ print("the input is invalid")
